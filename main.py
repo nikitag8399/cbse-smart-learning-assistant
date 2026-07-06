@@ -6,6 +6,7 @@ from app.evaluation import evaluate_answer
 from app.tracker import WeaknessTracker
 from app.mcq_parser import parse_mcqs
 
+#changes
 app = FastAPI()
 tracker = WeaknessTracker()
 qa_chain = build_chain(mode="simple")
